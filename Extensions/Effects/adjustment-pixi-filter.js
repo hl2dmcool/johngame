@@ -1,0 +1,2 @@
+var gdjs;(function(r){r.PixiFiltersTools.registerFilterCreator("Adjustment",{makePIXIFilter:function(i,t){return new PIXI.filters.AdjustmentFilter},updatePreRender:function(i,t){},updateDoubleParameter:function(i,t,e){const n=i;t==="gamma"?n.gamma=e:t==="saturation"?n.saturation=e:t==="contrast"?n.contrast=e:t==="brightness"?n.brightness=e:t==="red"?n.red=e:t==="green"?n.green=e:t==="blue"?n.blue=e:t==="alpha"&&(n.alpha=e)},updateStringParameter:function(i,t,e){},updateBooleanParameter:function(i,t,e){}})})(gdjs||(gdjs={}));
+//# sourceMappingURL=adjustment-pixi-filter.js.map

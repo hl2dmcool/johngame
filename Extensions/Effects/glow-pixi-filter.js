@@ -1,0 +1,2 @@
+var gdjs;(function(n){n.PixiFiltersTools.registerFilterCreator("Glow",{makePIXIFilter:function(r,e){return new PIXI.filters.GlowFilter},updatePreRender:function(r,e){},updateDoubleParameter:function(r,e,t){const i=r;e==="innerStrength"?i.innerStrength=t:e==="outerStrength"?i.outerStrength=t:e==="distance"&&(i.distance=t)},updateStringParameter:function(r,e,t){const i=r;e==="color"&&(i.color=n.PixiFiltersTools.rgbOrHexToHexNumber(t))},updateBooleanParameter:function(r,e,t){}})})(gdjs||(gdjs={}));
+//# sourceMappingURL=glow-pixi-filter.js.map
