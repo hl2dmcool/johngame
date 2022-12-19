@@ -1,0 +1,12 @@
+{
+  "name": "JOHN IS PLATFORMING NOW",
+  "short_name": "JOHN IS PLATFORMING NOW",
+  "id": "com.salvitus.IrioBros57",
+  "description": "John is a platformer",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
